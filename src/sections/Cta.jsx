@@ -3,15 +3,36 @@ import Animated from '../components/Animated'
 import { ArrowRight } from 'lucide-react'
 
 
+// const floatDishes = [
+//     { src: "/assets/dish1.png", alt: "dish1", className: "top-6 left-4 md:top-10 md:left-[6%] lg:left-[10%]" },
+
+//     { src: "/assets/dish2.png", alt: "dish2", className: "bottom-6 left-6 md:bottom-10 md:left-[10%] lg:left-[14%]" },
+
+//     { src: "/assets/dish3.png", alt: "dish3", className: "top-6 right-4 md:top-10 md:right-[6%] lg:right-[10%]" },
+
+//     { src: "/assets/dish4.png", alt: "dish4", className: " bottom-6 right-6 md:bottom-10 md:-[10%] lg:right-[14%]" },
+// ]
+    
+
 const floatDishes = [
-    { src: "/assets/dish1.png", alt: "dish1", className: "top-6 left-4 md:top-10 md:left-[6%] lg:left-[10%]" },
-
-    { src: "/assets/dish2.png", alt: "dish2", className: "bottom-6 left-6 md:bottom-10 md:left-[10%] lg:left-[14%]" },
-
-    { src: "/assets/dish3.png", alt: "dish3", className: "top-6 right-4 md:top-10 md:right-[6%] lg:right-[10%]" },
-
-    { src: "/assets/dish4.png", alt: "dish4", className: " bottom-6 right-6 md:bottom-10 md:-[10%] lg:right-[14%]" },
+  {
+    src: `${import.meta.env.BASE_URL}assets/dish1.png`,
+    alt: "dish1",
+  },
+  {
+    src: `${import.meta.env.BASE_URL}assets/dish2.png`,
+    alt: "dish2",
+  },
+  {
+    src: `${import.meta.env.BASE_URL}assets/dish3.png`,
+    alt: "dish3",
+  },
+  {
+    src: `${import.meta.env.BASE_URL}assets/dish4.png`,
+    alt: "dish4",
+  },
 ]
+
 
 const Cta = () => {
     return (
